@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>참 잘했어요</title>
+    <style type="text/css">
+        @font-face {
+            font-family: 'KCC-Ganpan';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(99, 217, 214);
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: auto;
+            overflow: hidden;
+            background-image: url("bg.png");
+            background-size: cover;
+        }
+
+        .doc {
+            position: fixed;
+            left: 30%;
+            top: 50%;
+            transform: translate(-50%, -30%);
+            filter: drop-shadow(3px 3px 3px);
+           
+        }
+        
+         
+        }
+
+        .akfbox {
+            padding: 300px;
+            margin-left: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            filter: drop-shadow(3px 3px 3px);
+            justify-content: flex-end; /* 수정된 부분: 우측 정렬을 위한 설정 */
+        }
+
+        .akfbox img {
+            margin-bottom: 90px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fcfcfc;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+            padding: 0 50px;
+        }
+
+        nav a {
+            color: #174948;
+            text-decoration: none;
+            font-family: 'KCC-Ganpan';
+            font-size: 1.3rem;
+        }
+
+        .logo {
+            display: flex;
+            padding: 0 40px;
+        }
+
+        nav a:hover {
+            color: #ff0000;
+        }
+        .akf2{position: absolute;filter: drop-shadow(3px 3px 3px);
+        	right: 400px;
+        	top: 500px;}
+            @keyframes balloonAnimation {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(10deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+.akf{position: absolute;
+            right: 400px;
+            top: 270px;
+        filter: drop-shadow(3px 3px 3px)}
+
+
+.akf2 img {
+    animation: balloonAnimation 1.7s infinite; /* 애니메이션 지속 시간 및 반복 설정 */
+    transition: transform 0.5s ease-in-out; /* 부드러운 변화를 위한 트랜지션 설정 */
+}
+  
+
+    </style>
+</head>
+<body>
+<header>
+        <div class="logo">
+             <a href="https://asy224444.github.io/dogg/#section1">
+            <img style="width: 140px;height: auto;" src="logo.png">
+           </a>
+        </div>
+        <nav>
+
+            <a href="#section1">더 알아보기</a>
+            
+        </nav>
+    </header>
+<div class="wrapper">
+    <div class="doc" style="width: 50%;height: auto;">
+        <img src="doc.png" >
+    </div>
+    <div class="akfbox">
+        <img src="akfvndtjs.png" class="akf">
+        <div class="akf2">
+            <a href="https://mypetlife.co.kr" target="_blank">
+                <img src="akfvndtjs2.png" >
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
